@@ -1,7 +1,7 @@
 <?php
 include "wechat.class.php";
 $options = array(
-		'token'=>'Hick185' //填写你设定的key
+		'token'=>'WXtk123' //填写你设定的key
 	);
 $weObj = new Wechat($options);
 $weObj->valid();
